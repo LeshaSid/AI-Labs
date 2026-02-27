@@ -1,0 +1,151 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.20.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "7740d606e6d802d300716d8fc606c810",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"_1\">\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u0430</h1>\n<span class=\"paragraph\">\u0414\u0430\u0442\u0430\u0441\u0435\u0442 \u0432\u0437\u044f\u0442 \u0441 <a href=\"https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset\" rel=\"noopener noreferrer\" target=\"_blank\">Kaggle</a></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "3f739641a260a6643a92bda48514734c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='a2ef9ea7-8e10-d581-4069-dc1f938e563a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;chevrolet chevelle malibu&#92;&quot;,&#92;&quot;mpg&#92;&quot;:18.0,&#92;&quot;cylinders&#92;&quot;:8,&#92;&quot;displacement&#92;&quot;:307.0,&#92;&quot;horsepower&#92;&quot;:130.0,&#92;&quot;weight&#92;&quot;:3504,&#92;&quot;acceleration&#92;&quot;:12.0,&#92;&quot;model_year&#92;&quot;:70,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;buick skylark 320&#92;&quot;,&#92;&quot;mpg&#92;&quot;:15.0,&#92;&quot;cylinders&#92;&quot;:8,&#92;&quot;displacement&#92;&quot;:350.0,&#92;&quot;horsepower&#92;&quot;:165.0,&#92;&quot;weight&#92;&quot;:3693,&#92;&quot;acceleration&#92;&quot;:11.5,&#92;&quot;model_year&#92;&quot;:70,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;plymouth satellite&#92;&quot;,&#92;&quot;mpg&#92;&quot;:18.0,&#92;&quot;cylinders&#92;&quot;:8,&#92;&quot;displacement&#92;&quot;:318.0,&#92;&quot;horsepower&#92;&quot;:150.0,&#92;&quot;weight&#92;&quot;:3436,&#92;&quot;acceleration&#92;&quot;:11.0,&#92;&quot;model_year&#92;&quot;:70,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;amc rebel sst&#92;&quot;,&#92;&quot;mpg&#92;&quot;:16.0,&#92;&quot;cylinders&#92;&quot;:8,&#92;&quot;displacement&#92;&quot;:304.0,&#92;&quot;horsepower&#92;&quot;:150.0,&#92;&quot;weight&#92;&quot;:3433,&#92;&quot;acceleration&#92;&quot;:12.0,&#92;&quot;model_year&#92;&quot;:70,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;ford torino&#92;&quot;,&#92;&quot;mpg&#92;&quot;:17.0,&#92;&quot;cylinders&#92;&quot;:8,&#92;&quot;displacement&#92;&quot;:302.0,&#92;&quot;horsepower&#92;&quot;:140.0,&#92;&quot;weight&#92;&quot;:3449,&#92;&quot;acceleration&#92;&quot;:10.5,&#92;&quot;model_year&#92;&quot;:70,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;}]&quot;' data-total-rows='5' data-total-columns='9' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;mpg&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;cylinders&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;displacement&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;horsepower&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;weight&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;acceleration&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;model_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;origin&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "2f90a3a7e92d8ff82d6c69323f80d9d4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='274e5cf9-e8f9-762d-af1f-d05e155f7564'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;name&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;mpg&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;cylinders&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;displacement&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;horsepower&#92;&quot;,&#92;&quot;value&#92;&quot;:6},{&#92;&quot;&#92;&quot;:&#92;&quot;weight&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;acceleration&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;model_year&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;origin&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='9' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;download&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "e34adf0a4510ad75085fd5e85437ab39",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">\u041f\u0440\u043e\u043f\u0443\u0449\u0435\u043d\u043e 6 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0432 \u0441\u0442\u043e\u043b\u0431\u0446\u0435 horsepower</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "83662ac26469da7100a9d0a5f98831bc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='9fc5a8d3-431b-1718-90d4-f39ffa624501'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;name&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;mpg&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;cylinders&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;displacement&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;horsepower&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;weight&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;acceleration&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;model_year&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;&#92;&quot;:&#92;&quot;origin&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='9' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;download&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "40573644f448cdd0b4360932c1fb3ce2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">\u0417\u0430\u043f\u043e\u043b\u043d\u0438\u043b \u043f\u0440\u043e\u043f\u0443\u0449\u0435\u043d\u043d\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043c\u0435\u0434\u0438\u0430\u043d\u043e\u0439</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "009e448992b464787987f146e2ed7078",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='e473112d-b4fc-fa3b-30b6-cb90e13bdf29'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;chevrolet chevelle malibu&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.2393617021276596,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6175710594315246,&#92;&quot;horsepower&#92;&quot;:0.4565217391304348,&#92;&quot;weight&#92;&quot;:0.5361497022965693,&#92;&quot;acceleration&#92;&quot;:0.23809523809523803,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;buick skylark 320&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.15957446808510636,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.7286821705426357,&#92;&quot;horsepower&#92;&quot;:0.6467391304347826,&#92;&quot;weight&#92;&quot;:0.5897363198185427,&#92;&quot;acceleration&#92;&quot;:0.20833333333333337,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;plymouth satellite&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.2393617021276596,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6459948320413437,&#92;&quot;horsepower&#92;&quot;:0.5652173913043478,&#92;&quot;weight&#92;&quot;:0.5168698610717324,&#92;&quot;acceleration&#92;&quot;:0.1785714285714286,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;amc rebel sst&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.18617021276595744,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6098191214470284,&#92;&quot;horsepower&#92;&quot;:0.5652173913043478,&#92;&quot;weight&#92;&quot;:0.5160192798412249,&#92;&quot;acceleration&#92;&quot;:0.23809523809523803,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;ford torino&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.2127659574468085,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6046511627906976,&#92;&quot;horsepower&#92;&quot;:0.5108695652173912,&#92;&quot;weight&#92;&quot;:0.5205557130705982,&#92;&quot;acceleration&#92;&quot;:0.14880952380952384,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin&#92;&quot;:&#92;&quot;usa&#92;&quot;}]&quot;' data-total-rows='5' data-total-columns='9' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;mpg&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;cylinders&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;displacement&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;horsepower&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;weight&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;acceleration&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;model_year&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;origin&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "3172ca279ad25552296c74e3c5f8e104",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">\u041d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "b698af46af4455d03ade5571d2e1439c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='RGSE-0' random-id='84b50527-7110-4117-3979-c3294786bba3'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;chevrolet chevelle malibu&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.2393617021276596,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6175710594315246,&#92;&quot;horsepower&#92;&quot;:0.4565217391304348,&#92;&quot;weight&#92;&quot;:0.5361497022965693,&#92;&quot;acceleration&#92;&quot;:0.23809523809523803,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin_japan&#92;&quot;:false,&#92;&quot;origin_usa&#92;&quot;:true},{&#92;&quot;name&#92;&quot;:&#92;&quot;buick skylark 320&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.15957446808510636,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.7286821705426357,&#92;&quot;horsepower&#92;&quot;:0.6467391304347826,&#92;&quot;weight&#92;&quot;:0.5897363198185427,&#92;&quot;acceleration&#92;&quot;:0.20833333333333337,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin_japan&#92;&quot;:false,&#92;&quot;origin_usa&#92;&quot;:true},{&#92;&quot;name&#92;&quot;:&#92;&quot;plymouth satellite&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.2393617021276596,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6459948320413437,&#92;&quot;horsepower&#92;&quot;:0.5652173913043478,&#92;&quot;weight&#92;&quot;:0.5168698610717324,&#92;&quot;acceleration&#92;&quot;:0.1785714285714286,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin_japan&#92;&quot;:false,&#92;&quot;origin_usa&#92;&quot;:true},{&#92;&quot;name&#92;&quot;:&#92;&quot;amc rebel sst&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.18617021276595744,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6098191214470284,&#92;&quot;horsepower&#92;&quot;:0.5652173913043478,&#92;&quot;weight&#92;&quot;:0.5160192798412249,&#92;&quot;acceleration&#92;&quot;:0.23809523809523803,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin_japan&#92;&quot;:false,&#92;&quot;origin_usa&#92;&quot;:true},{&#92;&quot;name&#92;&quot;:&#92;&quot;ford torino&#92;&quot;,&#92;&quot;mpg&#92;&quot;:0.2127659574468085,&#92;&quot;cylinders&#92;&quot;:1.0,&#92;&quot;displacement&#92;&quot;:0.6046511627906976,&#92;&quot;horsepower&#92;&quot;:0.5108695652173912,&#92;&quot;weight&#92;&quot;:0.5205557130705982,&#92;&quot;acceleration&#92;&quot;:0.14880952380952384,&#92;&quot;model_year&#92;&quot;:0.0,&#92;&quot;origin_japan&#92;&quot;:false,&#92;&quot;origin_usa&#92;&quot;:true}]&quot;' data-total-rows='5' data-total-columns='10' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;mpg&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;cylinders&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;displacement&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;horsepower&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;weight&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;acceleration&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;model_year&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;origin_japan&quot;,[&quot;boolean&quot;,&quot;bool&quot;]],[&quot;origin_usa&quot;,[&quot;boolean&quot;,&quot;bool&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;df&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "64b366a75e4bd98c147076d986e83332",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">\u041f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0432 \u0444\u0430\u0439\u043b</span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
