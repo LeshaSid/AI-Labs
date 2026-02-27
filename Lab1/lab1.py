@@ -85,6 +85,7 @@ def _(mo):
 @app.cell
 def _(df, pd):
     df_new = pd.get_dummies(df, columns=["origin"], drop_first=True)
+    df_new = df_new.drop('name', axis="columns")
     df_new.to_csv("Lab1/processed_automobile.csv", index=False)
     df_new.head()
     return
@@ -93,7 +94,7 @@ def _(df, pd):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    Преобразование категориальных данных и сохранение в файл
+    Преобразование категориальных данных, удаление столбца name и сохранение в файл
     """)
     return
 
