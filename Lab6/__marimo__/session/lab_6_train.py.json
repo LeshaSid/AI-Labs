@@ -1,0 +1,160 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.5",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "5fd6c966c5122024f7748af551466ac7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u0412\u0435\u0440\u0441\u0438\u044f PyTorch: 2.11.0+cu130\n\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u043b\u0438 CUDA?: False\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vblA",
+      "code_hash": "b1ae1f7e32246041f08631dc853159a3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "859bf96fb0cc041ae5c9542f16272547",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "e9eb67f51c6eea8b2965c0c1521ceefe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "20\n\u041c\u043e\u0434\u0435\u043b\u044c \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430 \u043d\u0430: cpu\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "29d07ddd919b8936e59f740988aa5ecf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "a5a93850a096ab4f930e7f165c3467cd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/home/leshasid/Documents/Programming/Python/AI-Labs/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.\n  super().__init__(loader)\n/home/leshasid/Documents/Programming/Python/AI-Labs/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py:1118: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.\n  super().__init__(loader)\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u042d\u043f\u043e\u0445\u0430 [1/10] | Train Loss: 0.2600, Train Acc: 92.62% | Test Loss: 0.0036, Test Acc: 100.00%\n\u042d\u043f\u043e\u0445\u0430 [2/10] | Train Loss: 0.0466, Train Acc: 98.57% | Test Loss: 0.0050, Test Acc: 99.93%\n\u042d\u043f\u043e\u0445\u0430 [3/10] | Train Loss: 0.0232, Train Acc: 99.27% | Test Loss: 0.0028, Test Acc: 99.93%\n\u042d\u043f\u043e\u0445\u0430 [4/10] | Train Loss: 0.0270, Train Acc: 99.19% | Test Loss: 0.0003, Test Acc: 100.00%\n\u042d\u043f\u043e\u0445\u0430 [5/10] | Train Loss: 0.0268, Train Acc: 99.14% | Test Loss: 0.0026, Test Acc: 99.92%\n\u042d\u043f\u043e\u0445\u0430 [6/10] | Train Loss: 0.0199, Train Acc: 99.33% | Test Loss: 0.0000, Test Acc: 100.00%\n\u042d\u043f\u043e\u0445\u0430 [7/10] | Train Loss: 0.0162, Train Acc: 99.56% | Test Loss: 0.0004, Test Acc: 100.00%\n\u042d\u043f\u043e\u0445\u0430 [8/10] | Train Loss: 0.0196, Train Acc: 99.45% | Test Loss: 0.0001, Test Acc: 100.00%\n\u042d\u043f\u043e\u0445\u0430 [9/10] | Train Loss: 0.0103, Train Acc: 99.66% | Test Loss: 0.0071, Test Acc: 99.72%\n\u042d\u043f\u043e\u0445\u0430 [10/10] | Train Loss: 0.0152, Train Acc: 99.58% | Test Loss: 0.0000, Test Acc: 100.00%\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "d66177efffd6b258056e020ab1414016",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u0412\u0435\u0441\u0430 \u043c\u043e\u0434\u0435\u043b\u0438 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u044b!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "CZtx",
+      "code_hash": "11acc0006876c8c97f66685111122701",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"0\", \"1\", \"10\", \"11\", \"12\", \"13\", \"14\", \"15\", \"16\", \"17\", \"18\", \"19\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\"]"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

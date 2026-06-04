@@ -28,8 +28,8 @@ def _():
 
 @app.cell
 def _(StandardScaler, np, torch, train_test_split):
-    X = np.loadtxt('Lab5/dataIn.txt')
-    y = np.loadtxt('Lab5/dataOut.txt')
+    X = np.loadtxt('Lab5/dataIn.txt').T
+    y = np.loadtxt('Lab5/dataOut.txt').T
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 

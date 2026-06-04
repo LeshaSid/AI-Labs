@@ -8,27 +8,13 @@
     {
       "id": "Hbol",
       "code_hash": "a9d43d6ece555a5d4445d2011ca34e26",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
       "id": "MJUe",
-      "code_hash": "9db2ec59cfcc106b41f26b0b88e8e2cf",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "code_hash": "c21e9e5061147b3bd1f69372634e2b17",
+      "outputs": [],
       "console": []
     }
   ]

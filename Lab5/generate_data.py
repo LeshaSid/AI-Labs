@@ -13,14 +13,25 @@ def _():
 
 
 @app.cell
-def _(Y, np):
+def _(np):
     np.random.seed(42)
-    X = np.random.randint(0, 2, size=(1000, 12))  # 100 примеров, 12 бинарных признаков
-    #Y = np.random.randint(0, 2, size=(1000, 2))  # 100 примеров, 2 класса (one-hot encoding)
+    N = 1000
 
-    # Сохранение данных в файлы
-    np.savetxt('Lab5/dataIn.txt', X, fmt='%d')
-    np.savetxt('Lab5/dataOut.txt', Y, fmt='%d')
+    X = np.random.randint(0, 2, size=(N, 12))
+
+    key_questions_sum = X[:, 0] + X[:, 4] + X[:, 8]
+
+    labels = (key_questions_sum >= 2).astype(int)
+
+    noise_mask = np.random.rand(N) < 0.05
+    labels[noise_mask] = 1 - labels[noise_mask]
+
+    Y = np.zeros((N, 2), dtype=int)
+    Y[labels == 1] = [1, 0]
+    Y[labels == 0] = [0, 1]
+
+    np.savetxt('Lab5/dataIn.txt', X.T, fmt='%d')
+    np.savetxt('Lab5/dataOut.txt', Y.T, fmt='%d')
     return
 
 

@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.5",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "b6b3b29d44218da4bdce897825ef9395",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "99600033f2bcba694bdbff26020d6720",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "3a43d03c66d1501484e8e164405b724e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div class=\"nn-t\"><style>.nn-t {\n  font-size: 0.8125rem;\n  line-height: 1.5;\n  background-color: var(--slate-1);\n  color: var(--slate-12);\n  border-radius: 6px;\n}\n\n/* Header */\n.nn-t-header {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  padding: 0.625rem 0.75rem 0.5rem 0.75rem;\n}\n.nn-t-root {\n  font-family: monospace;\n  font-size: 0.875rem;\n  font-weight: 600;\n  color: var(--slate-12);\n}\n.nn-t-summary {\n  font-family: monospace;\n  font-size: 0.75rem;\n  color: var(--slate-11);\n  margin-left: auto;\n}\n.nn-t-divider {\n  height: 1px;\n  background-color: var(--slate-3);\n  margin: 0 0.75rem;\n}\n\n/* Body */\n.nn-t-body {\n  padding: 0.5rem 0 0.5rem 0.75rem;\n}\n\n/* Shared row layout */\n.nn-t-leaf,\n.nn-t-node > summary,\n.nn-t-expand > summary {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  padding: 0.1875rem 0.75rem 0.1875rem 0;\n  white-space: nowrap;\n}\n.nn-t-leaf:hover,\n.nn-t-node > summary:hover,\n.nn-t-expand > summary:hover {\n  background: var(--slate-2);\n}\n\n/* Expandable nodes */\n.nn-t-node {\n  margin: 0;\n  padding: 0;\n}\n.nn-t-node > summary {\n  cursor: pointer;\n  list-style: none;\n}\n.nn-t-node > summary::-webkit-details-marker {\n  display: none;\n}\n\n/* Disclosure arrow */\n.nn-t-arrow {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 1rem;\n  flex-shrink: 0;\n  color: var(--slate-9);\n  transition: transform 0.12s;\n  font-size: 0.5rem;\n}\n.nn-t-node[open] > summary .nn-t-arrow {\n  transform: rotate(90deg);\n}\n\n/* Leaf spacer matches arrow width */\n.nn-t-spacer {\n  display: inline-block;\n  width: 1rem;\n  flex-shrink: 0;\n}\n\n/* Children with indent guide */\n.nn-t-children {\n  margin-left: calc(0.5rem - 1px);\n  padding-left: 0.75rem;\n  border-left: 1px solid var(--slate-3);\n}\n\n/* Text elements */\n.nn-t-name {\n  font-family: monospace;\n  font-size: 0.8125rem;\n  font-weight: 500;\n  color: var(--slate-12);\n}\n.nn-t-type {\n  font-family: monospace;\n  font-size: 0.8125rem;\n  font-weight: 600;\n  color: var(--slate-12);\n  padding: 0.0625rem 0.375rem;\n  border-radius: 0.1875rem;\n  background: var(--slate-3);\n}\n.nn-t-type[data-cat=\"weight\"] { --pill-bg: var(--blue-3); --pill-fg: var(--blue-11); }\n.nn-t-type[data-cat=\"norm\"]   { --pill-bg: var(--green-3); --pill-fg: var(--green-11); }\n.nn-t-type[data-cat=\"act\"]    { --pill-bg: var(--orange-3); --pill-fg: var(--orange-11); }\n.nn-t-type[data-cat=\"reg\"]    { --pill-bg: var(--crimson-3); --pill-fg: var(--crimson-11); }\n.nn-t-type[data-cat] {\n  background: var(--pill-bg);\n  color: var(--pill-fg);\n}\n/* Positional args (always visible, never truncated) */\n.nn-t-pos {\n  font-family: monospace;\n  font-size: 0.8125rem;\n  color: var(--slate-11);\n  flex-shrink: 0;\n}\n\n/* Keyword args (truncated with ellipsis) */\n.nn-t-args {\n  font-family: monospace;\n  font-size: 0.8125rem;\n  color: var(--slate-11);\n  overflow: hidden;\n  text-overflow: ellipsis;\n  min-width: 0;\n}\n\n/* Expandable args */\n.nn-t-expand {\n  margin: 0;\n  padding: 0;\n}\n.nn-t-expand > summary {\n  cursor: pointer;\n  list-style: none;\n}\n.nn-t-expand > summary::-webkit-details-marker {\n  display: none;\n}\n.nn-t-expand[open] > summary .nn-t-args {\n  display: none;\n}\n.nn-t-expand-body {\n  font-family: monospace;\n  font-size: 0.8125rem;\n  color: var(--slate-11);\n  padding: 0 0.75rem 0.25rem 2.75rem;\n  line-height: 1.6;\n}\n.nn-t-key {\n  color: var(--slate-9);\n}\n.nn-t-expand-sep {\n  display: flex;\n  align-items: center;\n  gap: 0.25rem;\n  margin: 0.125rem 0 0 0;\n}\n.nn-t-expand-sep::after {\n  content: \"\";\n  flex: 1;\n  height: 1px;\n  background: var(--slate-3);\n}\n.nn-t-expand-sep-label {\n  font-size: 0.5625rem;\n  text-transform: uppercase;\n  letter-spacing: 0.04em;\n  color: var(--slate-8);\n  flex-shrink: 0;\n}\n\n/* Param count */\n.nn-t-params {\n  color: var(--slate-10);\n  font-family: monospace;\n  font-size: 0.75rem;\n  margin-left: auto;\n  padding-left: 1rem;\n  flex-shrink: 0;\n}\n[data-frozen] > .nn-t-type,\n[data-frozen] > .nn-t-pos,\n[data-frozen] > .nn-t-args,\n[data-frozen] > .nn-t-params,\n[data-frozen] > .nn-t-spacer,\n[data-frozen] > summary > .nn-t-type,\n[data-frozen] > summary > .nn-t-pos,\n[data-frozen] > summary > .nn-t-args,\n[data-frozen] > summary > .nn-t-params,\n[data-frozen] > summary > .nn-t-arrow {\n  opacity: 0.55;\n}\n\n/* Footer with info-hover legend */\n.nn-t-footer {\n  display: flex;\n  justify-content: flex-end;\n  padding: 0.25rem 0.75rem 0.375rem 0.75rem;\n}\n.nn-t-info {\n  position: relative;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  color: var(--slate-8);\n  cursor: default;\n}\n.nn-t-info:hover { color: var(--slate-10); }\n.nn-t-info:hover .nn-t-legend {\n  visibility: visible;\n  opacity: 1;\n}\n.nn-t-info svg {\n  width: 0.875rem;\n  height: 0.875rem;\n}\n.nn-t-legend {\n  visibility: hidden;\n  opacity: 0;\n  position: absolute;\n  bottom: calc(100% + 6px);\n  right: 0;\n  z-index: 10;\n  max-height: 12rem;\n  overflow-y: auto;\n  display: flex;\n  flex-direction: column;\n  gap: 0.25rem;\n  padding: 0.375rem 0.625rem;\n  background: var(--slate-1);\n  border: 1px solid var(--slate-3);\n  border-radius: 6px;\n  white-space: nowrap;\n  transition: opacity 0.12s, visibility 0.12s;\n  font-family: monospace;\n  font-size: 0.75rem;\n  color: var(--slate-11);\n}\n.nn-t-legend-title {\n  font-size: 0.6875rem;\n  text-transform: uppercase;\n  letter-spacing: 0.04em;\n  color: var(--slate-9);\n  margin-bottom: 0.0625rem;\n}\n.nn-t-legend-item {\n  display: flex;\n  align-items: center;\n  gap: 0.375rem;\n}\n.nn-t-swatch {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 0.875rem;\n  height: 0.8125rem;\n  border-radius: 0.1875rem;\n  flex-shrink: 0;\n  background: var(--slate-3);\n}\n.nn-t-swatch[data-cat=\"weight\"] { background: var(--blue-3); }\n.nn-t-swatch[data-cat=\"norm\"]   { background: var(--green-3); }\n.nn-t-swatch[data-cat=\"act\"]    { background: var(--orange-3); }\n.nn-t-swatch[data-cat=\"reg\"]    { background: var(--crimson-3); }\n.nn-t-swatch-dot {\n  width: 0.25rem;\n  height: 0.25rem;\n  border-radius: 50%;\n  background: var(--slate-8);\n}\n.nn-t-swatch[data-cat=\"weight\"] .nn-t-swatch-dot { background: var(--blue-11); }\n.nn-t-swatch[data-cat=\"norm\"] .nn-t-swatch-dot   { background: var(--green-11); }\n.nn-t-swatch[data-cat=\"act\"] .nn-t-swatch-dot    { background: var(--orange-11); }\n.nn-t-swatch[data-cat=\"reg\"] .nn-t-swatch-dot    { background: var(--crimson-11); }\n.nn-t-swatch[data-dim] { opacity: 0.55; }\n.nn-t-legend-sep {\n  height: 1px;\n  background: var(--slate-3);\n  margin: 0.125rem 0;\n}</style><div class=\"nn-t-header\"><span class=\"nn-t-root\">CV_CNN</span><span class=\"nn-t-summary\">1.6M params \u00b7 6.2 MB</span></div><div class=\"nn-t-divider\"></div><div class=\"nn-t-body\"><details class=\"nn-t-expand\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">conv1</span> <span class=\"nn-t-type\" data-cat=\"weight\">Conv2d</span> <span class=\"nn-t-pos\">3, 32</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">kernel_size</span>=(3, 3), <span class=\"nn-t-key\">stride</span>=(1, 1)</span><span class=\"nn-t-params\">896</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">kernel_size</span> (3, 3)<br><span class=\"nn-t-key\">stride</span> (1, 1)<div class=\"nn-t-expand-sep\"><span class=\"nn-t-expand-sep-label\">tensor</span></div><span class=\"nn-t-key\">dtype</span> float32<br><span class=\"nn-t-key\">device</span> cpu</div></details>\n<details class=\"nn-t-expand\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">bn1</span> <span class=\"nn-t-type\" data-cat=\"norm\">BatchNorm2d</span> <span class=\"nn-t-pos\">32</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">eps</span>=1e-05, <span class=\"nn-t-key\">momentum</span>=0.1, <span class=\"nn-t-key\">affine</span>=True, <span class=\"nn-t-key\">track_running_stats</span>=True</span><span class=\"nn-t-params\">64</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">eps</span> 1e-05<br><span class=\"nn-t-key\">momentum</span> 0.1<br><span class=\"nn-t-key\">affine</span> True<br><span class=\"nn-t-key\">track_running_stats</span> True<div class=\"nn-t-expand-sep\"><span class=\"nn-t-expand-sep-label\">tensor</span></div><span class=\"nn-t-key\">dtype</span> float32<br><span class=\"nn-t-key\">device</span> cpu</div></details>\n<details class=\"nn-t-expand\" data-frozen=\"true\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">pool</span> <span class=\"nn-t-type\">MaxPool2d</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">kernel_size</span>=2, <span class=\"nn-t-key\">stride</span>=2, <span class=\"nn-t-key\">padding</span>=0, <span class=\"nn-t-key\">dilation</span>=1, <span class=\"nn-t-key\">ceil_mode</span>=False</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">kernel_size</span> 2<br><span class=\"nn-t-key\">stride</span> 2<br><span class=\"nn-t-key\">padding</span> 0<br><span class=\"nn-t-key\">dilation</span> 1<br><span class=\"nn-t-key\">ceil_mode</span> False</div></details>\n<details class=\"nn-t-expand\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">conv2</span> <span class=\"nn-t-type\" data-cat=\"weight\">Conv2d</span> <span class=\"nn-t-pos\">32, 64</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">kernel_size</span>=(3, 3), <span class=\"nn-t-key\">stride</span>=(1, 1)</span><span class=\"nn-t-params\">18.5K</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">kernel_size</span> (3, 3)<br><span class=\"nn-t-key\">stride</span> (1, 1)<div class=\"nn-t-expand-sep\"><span class=\"nn-t-expand-sep-label\">tensor</span></div><span class=\"nn-t-key\">dtype</span> float32<br><span class=\"nn-t-key\">device</span> cpu</div></details>\n<details class=\"nn-t-expand\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">bn2</span> <span class=\"nn-t-type\" data-cat=\"norm\">BatchNorm2d</span> <span class=\"nn-t-pos\">64</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">eps</span>=1e-05, <span class=\"nn-t-key\">momentum</span>=0.1, <span class=\"nn-t-key\">affine</span>=True, <span class=\"nn-t-key\">track_running_stats</span>=True</span><span class=\"nn-t-params\">128</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">eps</span> 1e-05<br><span class=\"nn-t-key\">momentum</span> 0.1<br><span class=\"nn-t-key\">affine</span> True<br><span class=\"nn-t-key\">track_running_stats</span> True<div class=\"nn-t-expand-sep\"><span class=\"nn-t-expand-sep-label\">tensor</span></div><span class=\"nn-t-key\">dtype</span> float32<br><span class=\"nn-t-key\">device</span> cpu</div></details>\n<details class=\"nn-t-expand\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">fc1</span> <span class=\"nn-t-type\" data-cat=\"weight\">Linear</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">in_features</span>=12544, <span class=\"nn-t-key\">out_features</span>=128, <span class=\"nn-t-key\">bias</span>=True</span><span class=\"nn-t-params\">1.6M</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">in_features</span> 12544<br><span class=\"nn-t-key\">out_features</span> 128<br><span class=\"nn-t-key\">bias</span> True<div class=\"nn-t-expand-sep\"><span class=\"nn-t-expand-sep-label\">tensor</span></div><span class=\"nn-t-key\">dtype</span> float32<br><span class=\"nn-t-key\">device</span> cpu</div></details>\n<details class=\"nn-t-expand\"><summary><span class=\"nn-t-spacer\"></span><span class=\"nn-t-name\">fc2</span> <span class=\"nn-t-type\" data-cat=\"weight\">Linear</span> <span class=\"nn-t-args\"><span class=\"nn-t-key\">in_features</span>=128, <span class=\"nn-t-key\">out_features</span>=20, <span class=\"nn-t-key\">bias</span>=True</span><span class=\"nn-t-params\">2.6K</span></summary><div class=\"nn-t-expand-body\"><span class=\"nn-t-key\">in_features</span> 128<br><span class=\"nn-t-key\">out_features</span> 20<br><span class=\"nn-t-key\">bias</span> True<div class=\"nn-t-expand-sep\"><span class=\"nn-t-expand-sep-label\">tensor</span></div><span class=\"nn-t-key\">dtype</span> float32<br><span class=\"nn-t-key\">device</span> cpu</div></details></div><div class=\"nn-t-footer\"><span class=\"nn-t-info\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4\"/><path d=\"M12 8h.01\"/></svg><span class=\"nn-t-legend\"><span class=\"nn-t-legend-title\">Module types</span><span class=\"nn-t-legend-item\"><span class=\"nn-t-swatch\" data-cat=\"weight\"><span class=\"nn-t-swatch-dot\"></span></span>Weight</span><span class=\"nn-t-legend-item\"><span class=\"nn-t-swatch\" data-cat=\"act\"><span class=\"nn-t-swatch-dot\"></span></span>Activation</span><span class=\"nn-t-legend-item\"><span class=\"nn-t-swatch\" data-cat=\"norm\"><span class=\"nn-t-swatch-dot\"></span></span>Normalization</span><span class=\"nn-t-legend-item\"><span class=\"nn-t-swatch\" data-cat=\"reg\"><span class=\"nn-t-swatch-dot\"></span></span>Regularization</span><span class=\"nn-t-legend-sep\"></span><span class=\"nn-t-legend-item\"><span class=\"nn-t-swatch\"><span class=\"nn-t-swatch-dot\"></span></span>Trainable</span><span class=\"nn-t-legend-item\"><span class=\"nn-t-swatch\" data-dim><span class=\"nn-t-swatch-dot\"></span></span>Frozen / no params</span></span></span></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "074b9694851d68d4a2f215bd0cb31cfc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='63746012-ad1f-1a7f-9792-b0f645f5237b'><marimo-file data-initial-value='[]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0435 \u0444\u043e\u0442\u043e \u0432\u0430\u0448\u0435\u0439 \u0440\u0443\u043a\u0438 (JPEG/PNG)&lt;/span&gt;&lt;/span&gt;&quot;' data-filetypes='[&quot;image/jpeg&quot;,&quot;image/png&quot;]' data-multiple='false' data-kind='&quot;area&quot;' data-max_size='100000000'></marimo-file></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "4561494ff59ed6c8a18f26daafe5f457",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
